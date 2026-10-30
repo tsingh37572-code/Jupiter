@@ -28,13 +28,11 @@
         .cat-btn { background: #e2e8f0; color: #334155; border: none; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; }
         .cat-btn.active { background: #2563eb; color: white; }
 
-        /* App / File Cards Grid */
+        /* Cards Grid */
         .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
-        .card { background: white; padding: 16px; border-radius: 14px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.03); }
-        .card-title { font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 6px; }
-        .card-info { font-size: 12px; color: #64748b; margin-bottom: 12px; line-height: 1.5; }
-        .card-info span { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
-        .btn-download { display: block; text-align: center; background: #2563eb; color: white; padding: 10px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; }
+        .card { background: white; padding: 16px; border-radius: 14px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.03); text-align: center; margin-bottom: 15px; }
+        
+        .btn-download { display: block; text-align: center; background: #2563eb; color: white; padding: 12px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; }
         .btn-download:hover { background: #1d4ed8; }
 
         footer { text-align: center; margin-top: 30px; padding: 15px; color: #94a3b8; font-size: 12px; }
@@ -76,24 +74,13 @@
     <!-- Cards List -->
     <div class="cards-grid">
         
-        <!-- File Item 1 -->
+        <!-- Photo & Download Button Card -->
         <div class="card">
-            <div class="card-title">Jupiter Learning Material Pack</div>
-            <div class="card-info">
-                <span>Category: Education</span> | Size: 12 MB<br>
-                ⭐ 4.8 / 5.0 | Downloads: 1,000+
-            </div>
-            <a href="https://drive.google.com" target="_blank" class="btn-download">Download File</a>
-        </div>
-
-        <!-- File Item 2 -->
-        <div class="card">
-            <div class="card-title">Jupiter Official App v1.0</div>
-            <div class="card-info">
-                <span>Category: APK</span> | Size: 8.5 MB<br>
-                ⭐ 4.9 / 5.0 | Downloads: 500+
-            </div>
-            <a href="https://drive.google.com" target="_blank" class="btn-download">Download APK</a>
+            <!-- आपकी फोटो -->
+            <img src="https://cdn.phototourl.com/member/2026-10-30-c6165337-ed27-4301-b169-5578bb9e7796.jpg" alt="Download Photo" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px; margin-bottom: 15px;">
+            
+            <!-- डाउनलोड बटन -->
+            <a href="#" class="btn-download">Download Now</a>
         </div>
 
     </div>
@@ -104,12 +91,3 @@
 
 </body>
 </html>
-<div class="card" style="background: white; padding: 16px; border-radius: 14px; border: 1px solid #e2e8f0; text-align: center; margin-bottom: 15px;">
-    
-    <!-- Yahan aapki di gayi photo lag gayi hai -->
-    <img src="https://cdn.phototourl.com/member/2026-10-30-c6165337-ed27-4301-b169-5578bb9e7796.jpg" alt="Download Photo" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px; margin-bottom: 15px;">
-    
-    <!-- Photo ke niche download button (link optional hai) -->
-    <a href="#" class="btn-download" style="display: block; background: #2563eb; color: white; padding: 12px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px;">Download Now</a>
-
-</div>
